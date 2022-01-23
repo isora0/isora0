@@ -81,12 +81,17 @@ chmod -w /etc/sudoers
 
 生成密钥对
 
-将公钥粘贴至".ssh/authorized_keys"，导出私钥。
-
-authorized_keys文件权限为644(chmod 644)
-
 ```
 ssh-keygen -t rsa -b 1024
+```
+
+将公钥添加进信任列表，更改权限
+
+记得导出私钥
+
+```
+cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub
+chmod 600 ~/.ssh/authorized_keys
 ```
 
 修改ssh配置 修改ssh端口 禁止root登录 ......
