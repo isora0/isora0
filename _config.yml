@@ -90,7 +90,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: face-laugh-wink
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -347,7 +347,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
