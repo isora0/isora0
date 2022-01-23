@@ -122,7 +122,7 @@ menu:
   #about: /about/
   archives: /archives/
   tags: /tags/
-  tools: /tools.html
+  tools: https://github.com/isora0/isora0.github.io/blob/93b1f5c0a56c6b30e2ffb792b2d0c8c5140db754/tools.html
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
