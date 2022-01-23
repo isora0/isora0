@@ -90,7 +90,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: face-kiss-wink-heart
+authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -652,11 +652,6 @@ vendors:
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
   fontawesome:
-
-  # Internal version: 1
-  # https://www.algolia.com
-  algolia_instant_js:
-  algolia_instant_css:
 
   # Internal version: 1.0.2
   # See: https://github.com/HubSpot/pace
