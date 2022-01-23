@@ -1,5 +1,6 @@
 ---
-title: 实用工具
+layout: page
+type: tools
 ---
 
 [阿里云盘资源搜索工具](https://www.niceso.fun/)
