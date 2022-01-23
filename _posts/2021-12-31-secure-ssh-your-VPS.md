@@ -14,9 +14,7 @@ tags:
 
 首先 更新系统
 
-```
 apt update && apt upgrade -y
-```
 
 安装依赖
 
@@ -42,9 +40,7 @@ bash DebianNET.sh -d 10 -v 64 -p 2DOiSora2020= -a
 
 更新dd后的系统
 
-```
 apt update && apt upgrade -y
-```
 
 安装vim 有非root账户登录习惯的安装sudo
  
@@ -84,7 +80,10 @@ chmod -w /etc/sudoers
 设置ssh密钥登录
 
 生成密钥对
-将公钥粘贴至.ssh/authorized_keys，导出私钥。authorized_keys文件权限为644(chmod 644)
+
+将公钥粘贴至".ssh/authorized_keys"，导出私钥。
+
+authorized_keys文件权限为644(chmod 644)
 
 ```
 ssh-keygen -t rsa -b 1024
